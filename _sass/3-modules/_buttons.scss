@@ -1,0 +1,36 @@
+/* Buttons */
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all .25s;
+  color: $white;
+  background: $button-background-color;
+
+  &:hover {
+    color: $white;
+    background: $button-background-hover;
+  }
+
+  &--primary {
+    padding: 16px 20px;
+  }
+
+  &--middle {
+    padding: 18px 32px;
+  }
+
+  &--big {
+    padding: 24px 44px;
+  }
+
+  &--rounded {
+    border-radius: 60px;
+  }
+}

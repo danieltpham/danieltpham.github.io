@@ -1,0 +1,35 @@
+<div class="article col {% if forloop.index == 1 and page.url == '/' %}col-12 article--first{% else %} col-4 col-d-6 col-t-12{% endif %}">
+  <div class="article__inner">
+
+
+    <a class="article__image" href="{{post.url | prepend: site.baseurl}}" {% if post.accent %}style="background-color: {{ post.accent }};"{% endif %}>
+      {% if post.image %}
+      <div class="article__image__cover {% if post.accent %}image-cover-js{% endif %}" {% if post.accent %}data-accent="{{ post.accent }}"{% endif %}></div>
+      <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+      {% endif %}
+    </a>
+
+    <div class="article__content">
+
+      {% if post.tags.size >= 1 %}
+      <div class="article__tags">
+        {% for tag in post.tags %}
+          <a href="{{ site.baseurl }}/tags#{{ tag | downcase }}" class="article__tag" {% if post.accent %}style="background-color: {{ post.accent }};"{% endif %}>{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h2 class="article__title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      <div class="article__meta">
+        {% if site.data.settings.author.author__name %}
+        <a href="{{site.baseurl}}/about/" class="article__author">{{ site.data.settings.author.author__name }}</a>
+        {% endif %}
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="article__date" >{{ post.date | date_to_string }}</time>
+      </div>
+
+    </div>
+  </div>
+</div>

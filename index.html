@@ -1,0 +1,21 @@
+---
+layout: default
+image: '/images/01.jpg'
+---
+
+{% if page.url == '/' %}
+  {% include hero.html %}
+  {% include featured-posts.html %}
+{% endif %}
+
+<div class="container">
+  <div class="row animate">
+    {% if site.posts.size > 0 %}
+      {% for post in paginator.posts %}
+        {% include article.html %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+{% include pagination.html %}

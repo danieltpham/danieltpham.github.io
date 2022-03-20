@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="page-head page-image-center">
+  <div class="container">
+    <div class="row">
+
+      <div class="col col-12 page-head__info">
+        <div class="page__info">
+          <h1 class="page__title">{{ page.title | escape }}</h1>
+        </div>
+      </div>
+
+      {%if page.image %}
+      <div class="col col-12 page-head__image animate">
+        <div class="page-image">
+          <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+        </div>
+      </div>
+      {%endif %}
+
+    </div>
+  </div>
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+    </div>
+  </article>
+
+</div>
+<!-- end page -->

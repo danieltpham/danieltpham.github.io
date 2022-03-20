@@ -1,0 +1,52 @@
+/* Contact */
+.contact-head {
+  margin-bottom: 40px;
+}
+
+.contact-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 58px;
+  line-height: 1.2;
+}
+
+.contact-description {
+  font-size: 20px;
+  line-height: 1.2;
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 16px;
+  }
+}
+
+.form__group {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form__input {
+  width: 100%;
+  padding: 22px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: 0;
+  transition: .25s ease-in-out;
+  resize: vertical;
+  color: $heading-font-color;
+  background-color: rgba($brand-color, 0.06);
+
+  &::placeholder {
+    color: $heading-font-color;
+    opacity: 0.7;
+  }
+
+  &:focus {
+    border-color: $brand-color;
+  }
+}

@@ -1,0 +1,75 @@
+#-------------------------------
+# Site Settings
+title: Calipse
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Calipse is a modern magazine theme for Jekyll
+color__scheme: light # You can choose two modes: light and dark. By default, Calipse theme uses a 'light' color scheme, to change the color scheme to dark use 'dark' value (_includes/color-scheme).
+cover__image: '/images/bg.jpg' # Add global cover image (this field adds a background to the top of the site.).
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Pat Peters
+  author__bio: I’m full-time freelance passionate digital and traditional artist, I have been working in this filed for over +6 years. I had the chance to work with international and local clients. Feel free to contact me.
+
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com"}
+- {icon: "ion-logo-facebook", link: "https://facebook.com"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+- {icon: "ion-logo-dribbble", link: "https://youtube.com"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-youtube", link: "https://youtube.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Menu Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Contact'
+      url: '/contact/'
+    - title: 'Pages'
+      submenu:
+      - url: '/elements/'
+        title: 'Elements'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hi, My Name Pat Peters
+  hero__description: I’m full-time freelance passionate digital and traditional artist, I have been working in this filed for over +6 years. I had the chance to work with international and local clients. Feel free to contact me.
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: your@email.com # Add your email for contant form
+  description: Calipse comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Calipse theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__title: Newsletter
+mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
+mailchimp__button__text: Get news
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id

@@ -1,0 +1,54 @@
+/* Hero */
+.hero {
+  margin-bottom: 80px;
+
+  @media only screen and (max-width: $desktop) {
+    margin-bottom: 60px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 32px;
+  }
+}
+
+.hero__inner {
+  max-width: 860px;
+  margin: 0 auto;
+
+  @media only screen and (max-width: $desktop) {
+    max-width: 730px;
+    margin: 0;
+  }
+}
+
+.hero__title {
+  margin-bottom: 40px;
+  font-size: 120px;
+  line-height: 1;
+  color: $heading-font-color;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: 100px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    font-size: 80px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 20px;
+    font-size: 48px;
+  }
+}
+
+.hero__description {
+  margin-bottom: 0;
+  font-size: 21px;
+  line-height: 1.8;
+  color: $text-color;
+
+  @media only screen and (max-width: $desktop) {
+    font-size: inherit;
+    line-height: 1.6;
+  }
+}
