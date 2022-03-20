@@ -1,23 +1,24 @@
 #-------------------------------
 # Site Settings
-title: Calipse
-logo: # You can add own logo. For example '/images/logo.png'.
+title: dp - [d]ata scientist in [p]harma
+logo: '/images/logo.png'
 description: Calipse is a modern magazine theme for Jekyll
-color__scheme: light # You can choose two modes: light and dark. By default, Calipse theme uses a 'light' color scheme, to change the color scheme to dark use 'dark' value (_includes/color-scheme).
+color__scheme: dark # You can choose two modes: light and dark. By default, Calipse theme uses a 'light' color scheme, to change the color scheme to dark use 'dark' value (_includes/color-scheme).
 cover__image: '/images/bg.jpg' # Add global cover image (this field adds a background to the top of the site.).
 
 
 #-------------------------------
 # Author Settings
 author:
-  author__name: Pat Peters
-  author__bio: I’m full-time freelance passionate digital and traditional artist, I have been working in this filed for over +6 years. I had the chance to work with international and local clients. Feel free to contact me.
-
+  author__name: Daniel Pham
+  author__bio: I am a Melbourne-based data scientist with expertise in ML/AI, application development, data management and modelling in biopharma R&D and manufacturing. I am also a PhD candidate at The University of Melbourne with a research focus on robust data mining and optimisation.
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-dribbble", link: "https://youtube.com"}
+- {icon: "ion-logo-github", link: "https://github.com/danieltpham"}
+#- {icon: "ion-send", link: "mailto:tiendungp@student.unimelb.edu.au"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/pham-daniel/"}
+#- {icon: "ion-logo-facebook", link: "https://facebook.com"}
+#- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+#- {icon: "ion-logo-dribbble", link: "https://youtube.com"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-youtube", link: "https://youtube.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -33,32 +34,29 @@ menu__settings:
       url: '/about/'
     - title: 'Contact'
       url: '/contact/'
-    - title: 'Pages'
-      submenu:
-      - url: '/elements/'
-        title: 'Elements'
+    # - title: 'Pages'
+    #   submenu:
+    #   - url: '/elements/'
+    #     title: 'Elements'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi, My Name Pat Peters
-  hero__description: I’m full-time freelance passionate digital and traditional artist, I have been working in this filed for over +6 years. I had the chance to work with international and local clients. Feel free to contact me.
+  hero__title: >
+    Hello, I'm
+    Daniel Pham
+  hero__description: I am a Melbourne-based data scientist with expertise in ML/AI, application development, data management and modelling in biopharma R&D and manufacturing. I am also a PhD candidate at The University of Melbourne with a research focus on robust data mining and optimisation.  Nice to meet you!
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contant form
-  description: Calipse comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
-
-# NOTE
-# Calipse theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
-
+  email: tiendungp@student.unimelb.edu.au # Add your email for contant form
 
 #-------------------------------
 # Newsletter
-mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp: # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
 mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
 mailchimp__title: Newsletter
 mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
