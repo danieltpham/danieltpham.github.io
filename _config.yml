@@ -31,3 +31,4 @@ sass:
   
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate
