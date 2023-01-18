@@ -5,7 +5,7 @@ description: This is the first paper to summarise and map how supervised learnin
 date:   2022-12-23
 template: image-right # You can specify the position of the image. For example: image-left, image-right, image-center
 accent: '#007771' # To change the accent color, add a hexadecimal color code (HEX). For example - '#5b2c6f'
-image:  '/images/14.jpg'
+image:  '/images/sldo-scoping-review.jpg'
 tags:   [Research Publication, Biopharma, Machine Learning]
 ---
 

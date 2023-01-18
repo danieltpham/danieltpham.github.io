@@ -18,7 +18,7 @@ social:
 - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/pham-daniel/"}
 #- {icon: "ion-logo-facebook", link: "https://facebook.com"}
 - {icon: "ion-logo-instagram", link: "https://instagram.com/datanovella"}
-#- {icon: "ion-logo-dribbble", link: "https://youtube.com"}
+- {icon: "ion-logo-googleplus", link: "https://orcid.org/0000-0002-2043-1495"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-youtube", link: "https://youtube.com"}
 # Other icons can be found at https://ionicons.com/v4/
