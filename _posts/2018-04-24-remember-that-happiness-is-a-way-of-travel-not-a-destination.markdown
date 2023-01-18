@@ -1,47 +1,32 @@
 ---
 layout: post
-title:  Remember that happiness is a way of travel, not a destination
-description: Leverage agile frameworks to provide a robust synopsis for high level overviews.
-date:   2020-04-24 15:01:35 +0300
+title:  A scoping review of supervised learning modelling and data-driven optimisation in monoclonal antibody process development
+description: This is the first paper to summarise and map how supervised learning modelling and data-driven optimisation (SLDO) are used in industrial monoclonal antibody (mAb) process development.
+date:   2022-12-23
 template: image-right # You can specify the position of the image. For example: image-left, image-right, image-center
 accent: '#007771' # To change the accent color, add a hexadecimal color code (HEX). For example - '#5b2c6f'
 image:  '/images/14.jpg'
-tags:   [travel]
+tags:   [Research Publication, Biopharma, Machine Learning]
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace Becca Tapert diversity and empowerment.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+## The Summary
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+In this review, my colleagues and I reviewed more than 100 research papers on machine learning usage in bioprocessing, and filtered out 30 research with primary focus on monoclonal antibody process development. We then summarised each paper and identified 4 key trends in this focused application of machine learning.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+## The Outcome
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+[LINK: The paper is published in Digital Chemical Engineering (Elsevier) under Gold Open Access scheme.](https://www.sciencedirect.com/science/article/pii/S2772508122000710)
 
-![Rio]({{site.baseurl}}/images/14-1.jpg#wide)
-*Photo by [Agustin Diaz Gargiulo](https://unsplash.com/photos/7F65HDP0-E0) on [Unsplash](https://unsplash.com/)*
+## The Highlights
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+[LINK: Only two weeks after the pre-proof version was published, we were mentioned in GEN Eng News - one of the most prominent news sources for the Biotechnology industry.](https://www.genengnews.com/topics/bioprocessing/machine-learning-pivotal-for-the-future-of-monoclonal-production/)
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+## The Process
 
-### Administrate
+The concept for the research started in February 2022, when I identified a gap in the current literature reviews: There was no review on Machine Learning focusing specifically on process development applications. Following the topic choice, the second challenging decision was on the format of the review. At the time, I neither had a good idea of which techniques were being used in this field, as well as to what extent. So literature review and systematic review are not quite feasible, and thus I opted for a newer type of review which I once came across while working on a healthcare project: Scoping Review. It took a while to convince my colleagues in Computer Science of this new review framework, but in the end, it allowed us to rapidly chart and summarise the research papers without too focusing on the pros and cons of each technique. The descriptive nature of scoping review is perfect for the situation where the researchers are unaware of the full extent of the review topic.
 
-Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+To facilitate the review, data collection and even manuscript preparation were done mostly in Python, and the use of Microsoft Power Apps to deploy a collaboration survey app within 2 working days! I will make the code available in the near future for the next generation of researchers looking to write a review paper.
 
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or "organic" sources.
+Overall, the writing process of a review paper (and my first author publication) was a thrilling one, yet blessed by an abundance of tools and support available to me and my colleagues. And just like what my supervisor said,
 
-![Bali]({{site.baseurl}}/images/14-2.jpg)
-*Photo by [Maksym Ivashchenko](https://unsplash.com/photos/Kab9GRosy8o) on [Unsplash](https://unsplash.com/)*
-
-Collaboratively synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-
-Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.
-
-### Best practices
-
-Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
-
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
-
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
+> Your PhD research topic will start to form as you explore the nooks and crannies of your literature landscape.

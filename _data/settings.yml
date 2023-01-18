@@ -17,7 +17,7 @@ social:
 #- {icon: "ion-send", link: "mailto:tiendungp@student.unimelb.edu.au"}
 - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/pham-daniel/"}
 #- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-#- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/datanovella"}
 #- {icon: "ion-logo-dribbble", link: "https://youtube.com"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-youtube", link: "https://youtube.com"}
@@ -30,10 +30,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
+    # - title: 'About'
+    #   url: '/about/'
+    # - title: 'Contact'
+    #   url: '/contact/'
     # - title: 'Pages'
     #   submenu:
     #   - url: '/elements/'
@@ -44,7 +44,6 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: >
-    Hello, I'm
     Daniel Pham
   hero__description: I am a Melbourne-based data scientist with expertise in ML/AI, application development, data management and modelling in biopharma R&D and manufacturing. I am also a PhD candidate at The University of Melbourne with a research focus on robust data mining and optimisation.  Nice to meet you!
 
@@ -52,22 +51,22 @@ hero:
 #-------------------------------
 # Contact Settings
 contact:
-  email: tiendungp@student.unimelb.edu.au # Add your email for contant form
+  email: dungphamtien99@gmail.com # Add your email for contact form
 
 #-------------------------------
 # Newsletter
-mailchimp: # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-mailchimp__title: Newsletter
-mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
-mailchimp__button__text: Get news
+# mailchimp: # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+# mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+# mailchimp__title: Newsletter
+# mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
+# mailchimp__button__text: Get news
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+# disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+# google-analytics: # Add your GA Tracking Id
